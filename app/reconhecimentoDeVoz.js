@@ -10,8 +10,9 @@ window.SpeechRecognition = window.SpeechRecognition || webkitSpeechRecognition;
  recognition.addEventListener('result', onSpeak)
 
  function onSpeak(e){
-    let chute = e.results[0][0].transcript;
+    var chute = e.results[0][0].transcript;
     exibeChuteNaTela(chute);
+    validaChute(chute);
  }
  
  function exibeChuteNaTela(chute){
