@@ -21,3 +21,5 @@ window.SpeechRecognition = window.SpeechRecognition || webkitSpeechRecognition;
         <span class="box">${chute}</span>
     `
  }
+
+ recognition.addEventListener('end', () => recognition.start())
