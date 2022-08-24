@@ -16,7 +16,9 @@ function validaChute(chute) {
         document.body.innerHTML = `
             <h2>Você acertou!</h2>
             <h3>O número secreto era ${numeroSecreto}</h3>
+            <button class="button" id="playAgain">Play Again</button>
         `
+        
     } else if (numero > numeroSecreto) {
         elementoChute.innerHTML+= `
         <div>O numero secreto é menor <i class="fa-solid fa-arrow-down-long"></i></div>

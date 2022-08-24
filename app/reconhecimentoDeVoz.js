@@ -23,3 +23,11 @@ window.SpeechRecognition = window.SpeechRecognition || webkitSpeechRecognition;
  }
 
  recognition.addEventListener('end', () => recognition.start())
+
+ const playAgain = document.querySelector(#playAgain);
+   playAgain.addEventListener('click',()=>{
+      gerarNumeroAleatorio();
+      onSpeak(e);
+ })
+ 
+
