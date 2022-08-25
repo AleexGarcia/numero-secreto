@@ -50,7 +50,18 @@ h3 {
 .button{
     outline: none;
     background-color: transparent;
-    border: solid 1rem #fff;
+    border: solid 1px #fff;
     cursor: pointer;
     padding: .5rem 1rem;
+    border-radius: 8px;
+    color:  var(--primary-color);
+    font-size: 2rem;
+    margin-top: 2rem;
+    font-family: var(--font-family);
+}
+.button:hover{
+    
+    color: rgb(24, 212, 150);
+    border-color: rgb(24, 212, 150);
+
 }

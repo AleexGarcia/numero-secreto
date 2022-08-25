@@ -25,8 +25,8 @@ function exibeChuteNaTela(chute) {
 recognition.addEventListener('end', () => recognition.start())
 
 const playAgain = document.querySelector("#playAgain");
-playAgain.addEventListener('click', (e) => {
-   gerarNumeroAleatorio();
+playAgain.addEventListener('click', () => {
+   window.location.reload();
 })
 
 
